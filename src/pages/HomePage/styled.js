@@ -1,6 +1,4 @@
 import styled from "styled-components"
-import back from "../../assets/back.webp"
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -23,6 +21,11 @@ export const SubSubTitleCard = styled.h3`
   text-align: justify;
 `
 
+export const ButtonImg = styled.img`
+  width: 30px;
+  height: 30px;
+`
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 export const Card1 = styled.div`
@@ -32,8 +35,14 @@ export const Card1 = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  background-image: url(${back});
+  background-color: #292929;
   height: 500px;
+
+  @media screen and (min-width:320px) and
+    (max-width : 480px) {
+    width:200%;
+    height:80vh;   
+  }  
 `
 
 export const Buttons = styled.p`
@@ -42,11 +51,6 @@ export const Buttons = styled.p`
   align-items: stretch;
   flex-wrap: nowrap;
   padding: 0px 200px 0px 10px;
-`
-
-export const ButtonImg = styled.img`
-  width: 30px;
-  height: 30px;
 `
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -58,6 +62,12 @@ export const Card2 = styled.div`
   align-items: center;
   background-color: #063447;
   height: 500px;
+
+  @media screen and (min-width:320px) and
+    (max-width : 480px) {
+    width:200%;
+    height:80vh;   
+  }  
 `
 
 export const ImgProfile = styled.img`
@@ -66,6 +76,13 @@ export const ImgProfile = styled.img`
   margin: 10px;
   padding: 10px;
   border-radius: 100%;
+  border: solid 1px #FFFFFF;
+  @media screen and (min-width :375px) and
+    (max-width : 667px) {
+    // ** mobile    
+    width:50%;
+    height:50%;   
+  }
 ` 
 
 export const Profile = styled.div`
@@ -81,6 +98,12 @@ export const Card3 = styled.div`
   align-items: center;
   background-color: #4eaccf;
   height: 500px;
+
+  @media screen and (min-width:320px) and
+    (max-width : 480px) {
+    width:200%;
+    height:80vh;   
+  }  
 `
 
 export const Knowledge = styled.div`
@@ -105,14 +128,56 @@ export const Card4 = styled.div`
   align-items: center;
   background-color: #292929;
   height: 500px;
+
+  @media screen and (min-width:320px) and
+    (max-width : 480px) {
+    width:200%;
+    height:120vh;   
+  }  
 `
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 export const Card5 = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: column;
   background-color: #063447;
+  height: 250px;
+
+  @media screen and (min-width:320px) and
+    (max-width : 480px) {
+    width:200%;
+    height:80vh;   
+  }  
+`
+
+export const ButtonsLast = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+`
+
+export const Teste = styled.div`
+  display: flex;
+  padding: 10px;
+`
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+export const Footer = styled.footer`
+  display: flex;
+  align-items: center;
+  background-color: #4eaccf;
+  height: 40px;
+
+  @media screen and (min-width:320px) and
+    (max-width : 480px) {
+    width:200%;
+    height:20vh;   
+  }  
 `
