@@ -12,7 +12,7 @@
 <p align="center"> O objetivo era construir uma aplicação web front-end que mostre informações sobre mim</p>
 
 <h2 id="link"> Link Surge - link para visualização do site</h2>
- <a href="flawless-feeling.surge.sh">Link </a><a>- flawless-feeling.surge.sh</a>
+ <a href="flawless-feeling.surge.sh"> Link </a><a>- flawless-feeling.surge.sh</a>
 
  <h2 id="funciona">O que funciona</h2>
 
